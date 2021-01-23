@@ -15,9 +15,25 @@ body {
     position: relative;
     }
 
-    .logo {
-     float: left;
+    .logo{
+     
      padding: 16px;
-     width: 70%;
+     width: 65%;
+     float: left;
+     
 
     }
+
+    .redes-sociais ul li{       /* repare no jeito de acessar o DOM */
+        display: inline-block;  /* o float left já está incluso aqui */
+        list-style: none;
+        padding: 1%;
+        
+    }
+
+    .redes-sociais{
+        width: 30%;
+        float: left;
+    }
+
+   
