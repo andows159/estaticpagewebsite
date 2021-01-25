@@ -1,3 +1,7 @@
+.menu ul{
+    margin-left: 19%
+}
+
 
 .menu-urls{
     height: 80px;
@@ -23,7 +27,7 @@ ul {
 
 .busca input{
     position: absolute;
-    top: 50%;
+    top: 29%;
     
 }
 
