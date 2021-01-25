@@ -1,3 +1,71 @@
+
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+    
+    
+}
+
+ul {
+    padding: 0px !important; 
+    
+    /* tem que fazer isso por causa de uma predefinição */
+}/*    padrão do chrome, o "important é para ele sobrescrever" */
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative
+    
+    
+
+}
+
+.busca input{
+    position: absolute;
+    top: 50%;
+    
+}
+
+.busca{
+    top: 30%;
+    width: 30%;
+    float: right;
+    
+}
+
+.menu{
+    width: 70%;
+    float:left
+}
+
+.menu ul li a{
+    color: #8b8b8b;
+    /* tira coisas como sublinhado */
+    text-decoration: none;
+    font-size: 20px;
+ /*    deixa todas as letras maiusculas */
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.menu ul li {
+    /* para ficar um do lado do outro */
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding:16px;
+    
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -11,6 +79,7 @@ body {
     }
     main{
     margin: 0 auto;
+    /* width: 100%; */
     width: 980px;
     position: relative;
     }
@@ -18,7 +87,7 @@ body {
     .logo{
      
      padding: 16px;
-     width: 65%;
+     width: 70%;
      float: left;
      
 
@@ -27,12 +96,12 @@ body {
     .redes-sociais ul li{       /* repare no jeito de acessar o DOM */
         display: inline-block;  /* o float left já está incluso aqui */
         list-style: none;
-        padding: 1%;
+        margin-left: 6%;
         
     }
 
     .redes-sociais{
-        width: 30%;
+        width: 20%;
         float: left;
     }
 
