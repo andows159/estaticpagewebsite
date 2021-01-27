@@ -1,3 +1,21 @@
+
+
+.redes-juntas {
+    margin-left: 25px;
+}
+
+.menu ul li:hover{
+   /*  aquela bordinha que fica em baixo do link quando passa o mouse */
+    border-bottom: 2px solid rgb(22,104,255);
+    height: 45px;
+}
+
+.menu ul li a:hover{
+    /* faz que quando passe o mouse mude de cor */
+    color: rgb(22, 104, 255);
+    
+}
+
 .menu ul{
     margin-left: 19%
 }
@@ -111,12 +129,12 @@ body {
     .redes-sociais ul li{       /* repare no jeito de acessar o DOM */
         display: inline-block;  /* o float left já está incluso aqui */
         list-style: none;
-        margin-left: 6%;
+        margin-left: 23px;
         
     }
 
     .redes-sociais{
-        width: 20%;
+        width: 26%;
         float: left;
     }
 
