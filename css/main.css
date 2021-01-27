@@ -1,7 +1,7 @@
 
 
 .redes-juntas {
-    margin-left: 25px;
+    margin-left: 19px;
 }
 
 .menu ul li:hover{
@@ -129,7 +129,7 @@ body {
     .redes-sociais ul li{       /* repare no jeito de acessar o DOM */
         display: inline-block;  /* o float left já está incluso aqui */
         list-style: none;
-        margin-left: 23px;
+        margin-left: 29px;
         
     }
 
@@ -138,4 +138,4 @@ body {
         float: left;
     }
 
-   
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
