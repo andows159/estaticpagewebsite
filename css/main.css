@@ -4,8 +4,9 @@
 
 
 .menu-urls{
-    height: 80px;
+    height: 60px;
     border-bottom: 3px solid #efefef;
+  
     
     
 }
@@ -19,7 +20,7 @@ ul {
 .col-100{
     width: 100%;
     float: left;
-    position: relative
+    position: relative;
     
     
 
@@ -27,14 +28,24 @@ ul {
 
 .busca input{
     position: absolute;
-    top: 29%;
+    margin-top: 10px;
+    text-align: left;
+    height: 36;
+    width: 190px;
+    padding: 12px;
+    background-image: url("../src/icone-search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 90%;
+    border: 1px solid rgb(189, 189, 189)
+    
     
 }
 
 .busca{
-    top: 30%;
     width: 30%;
     float: right;
+    
     
 }
 
