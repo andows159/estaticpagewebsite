@@ -6,9 +6,11 @@
 <html>
 
 <head>
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <title>First Project</title>
+   
+    
   
 </head>
 
@@ -59,7 +61,7 @@
         </div>
     </main>
     </header>
-
+<!-- perceba que uma mesma tag pode receber dois nomes de classe para herdar os css dos dois -->
     <main class="col-100 menu-urls">
         <div class="header2">
             <div class="menu">
@@ -84,6 +86,19 @@
             </div>
         </div>
     </main>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- perceba que essa classe também está presente no main que envolve o "Header-2 ali acima" -->
+    <div class="col-100">
+        <div class="slider-principal">
+            <img src="./src/banner.png" alt="">
+            <img src="./src/elon1.png" alt="">
+            <img src="./src/banner.png" alt="">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    
 </body>
 </html>
