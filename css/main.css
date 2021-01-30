@@ -1,5 +1,31 @@
 
 
+/* só procurei no inspetor de elementos os botoes que ja tinha na lib slick ai modifiquei eles */
+button.slick-next{
+    width: 25;
+    height: 51;
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    background-image: url(../src/proximo.png);
+    position: absolute;
+    z-index: 9;
+    top: 41%;
+    left: 85%;
+}
+button.slick-prev{
+    width: 25;
+    height: 51;
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    background-image: url(../src/anterior.png);
+    position: absolute;
+    z-index: 9;
+    top: 41%;
+    left: 15%;
+}
+
 .redes-juntas {
     margin-left: 19px;
 }
