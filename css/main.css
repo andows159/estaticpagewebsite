@@ -1,5 +1,13 @@
 
 
+/* perceba na sintaxe e que você tem que reparar bem no DOM, leia e observe bem a hierarquia da arvore */
+ul.slick-dots li button{
+    font-size: 0px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+
+}
+
 /* só procurei no inspetor de elementos os botoes que ja tinha na lib slick ai modifiquei eles */
 button.slick-next{
     width: 25;
