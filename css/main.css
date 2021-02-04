@@ -1,7 +1,19 @@
-ul.slick-dots li.slick-active button{
-    
-    background-color: rgb(51, 51, 240);
+/* eu sou burro to tentando a dois resolver a estilização desses botões */
+/* do slick, pfv eu do futuro, não seja tão burro quanto o eu que vôs fala */
+/* desde já agradeço pela cooperação no teu futuro, que também é meu */
+/* s2 */
 
+/* resolvendo problema do scroll horizontal indesejado  */
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+
+li.slick-active button {
+    background: #00bac6;
 }
 
 /* perceba na sintaxe e que você tem que reparar bem no DOM, leia e observe bem a hierarquia da arvore */
