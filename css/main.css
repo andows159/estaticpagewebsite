@@ -11,8 +11,7 @@
 .slick-list{
     width: 100%!important;
 }
-
-li.slick-active button {
+#slick-slide-control00 {
     background: #00bac6;
 }
 
@@ -24,6 +23,7 @@ ul.slick-dots li button{
     width: 20px;
     height: 20px;
     background-color: rgb(255, 255, 255);
+    display: inline-block;
 
 
 }
