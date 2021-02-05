@@ -1,8 +1,12 @@
-/* eu sou burro to tentando a dois resolver a estilização desses botões */
-/* do slick, pfv eu do futuro, não seja tão burro quanto o eu que vôs fala */
-/* desde já agradeço pela cooperação no teu futuro, que também é meu */
-/* s2 */
-
+/* RESOLVI A ESTILIZAÇÃO DOS BOTÕES */
+ul.slick-dots{
+    padding-left: 46%!important;
+    padding-bottom: 30%!important;
+}
+.slick-dots li {
+    
+    display: inline-block;
+}
 /* resolvendo problema do scroll horizontal indesejado  */
 .slick-initialized {
     overflow: hidden;
@@ -11,20 +15,19 @@
 .slick-list{
     width: 100%!important;
 }
-#slick-slide-control00 {
+li.slick-active button {
     background: #00bac6;
 }
 
 /* perceba na sintaxe e que você tem que reparar bem no DOM, leia e observe bem a hierarquia da arvore */
-ul.slick-dots li button{
+.slick-dots li button {
     font-size: 0px;
-    border: 3px solid #ffffff;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: rgb(255, 255, 255);
-    display: inline-block;
-
+    cursor: pointer;
 
 }
 
