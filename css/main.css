@@ -1,34 +1,35 @@
 /* RESOLVI A ESTILIZAÇÃO DOS BOTÕES */
-ul.slick-dots{
-    padding-left: 46%!important;
-    padding-bottom: 30%!important;
+.slick-list {
+    width: 100%!important;
 }
-.slick-dots li {
-    
-    display: inline-block;
-}
-/* resolvendo problema do scroll horizontal indesejado  */
 .slick-initialized {
     overflow: hidden;
 }
-
-.slick-list{
-    width: 100%!important;
-}
-li.slick-active button {
-    background: #00bac6;
-}
-
-/* perceba na sintaxe e que você tem que reparar bem no DOM, leia e observe bem a hierarquia da arvore */
 .slick-dots li button {
     font-size: 0px;
     border: 5px solid #ffffff;
     width: 26px;
     height: 26px;
-    
+    background: transparent;
     border-radius: 50%;
     cursor: pointer;
 
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 8%;
+    position: absolute;
+    left: 47%;
+    top: 600px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
 }
 
 /* só procurei no inspetor de elementos os botoes que ja tinha na lib slick ai modifiquei eles */
