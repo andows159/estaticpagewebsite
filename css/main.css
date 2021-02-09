@@ -1,37 +1,38 @@
 /* RESOLVI A ESTILIZAÇÃO DOS BOTÕES */
+
+.slick-active button{
+    background-color: rgb(64, 160, 224)!important;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    background-color: transparent;
+    border: solid 4px #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+   
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+      
+}
+
+.slick-dots{
+    margin: 0 auto;
+    position: relative;
+    margin-left: 48%;
+    top: -80;
+    
+}
+
 .slick-list {
     width: 100%!important;
 }
 .slick-initialized {
     overflow: hidden;
 }
-.slick-dots li button {
-    font-size: 0px;
-    border: 5px solid #ffffff;
-    width: 26px;
-    height: 26px;
-    background: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-
-}
-.slick-dots {
-    margin: 0 auto;
-    width: 8%;
-    position: absolute;
-    left: 47%;
-    top: 600px;
-}
-
-li.slick-active button {
-    background: #00bac6;
-}
-
-.slick-dots li {
-    padding-left: 10px;
-    display: inline-block;
-}
-
 /* só procurei no inspetor de elementos os botoes que ja tinha na lib slick ai modifiquei eles */
 button.slick-next{
     width: 25;
