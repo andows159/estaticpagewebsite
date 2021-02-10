@@ -2,7 +2,7 @@
 
 
 #slick-slide00{
-    height: 500px;
+    height: 500px!important;
 }
 
 .slick-active button{
@@ -29,7 +29,7 @@ ul.slick-dots li button{
 .slick-dots{
     margin: 0 auto;
     position: relative;
-    margin-left: 48%;
+    margin-left: 47%;
     top: -80;
     
 }
