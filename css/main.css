@@ -1,10 +1,16 @@
-/* RESOLVI A ESTILIZAÇÃO DOS BOTÕES */
 
-.slick-active button{
-    background-color: rgb(64, 160, 224)!important;
+
+
+#slick-slide00{
+    height: 500px;
 }
 
-.slick-dots li button{
+.slick-active button{
+    background-color: #00bac6!important;
+}
+
+/* perceba na sintaxe e que você tem que reparar bem no DOM, leia e observe bem a hierarquia da arvore */
+ul.slick-dots li button{
     font-size: 0px;
     background-color: transparent;
     border: solid 4px #ffffff;
@@ -12,8 +18,7 @@
     width: 20px;
     border-radius: 50%;
     /* serve para mudar o cursosr quando passa por cima do elemento */
-    cursor: pointer;
-   
+    cursor: pointer;  
 }
 .slick-dots li {
     padding-left: 10px;
