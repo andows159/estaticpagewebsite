@@ -1,5 +1,21 @@
+main.col-100{
+    top:-49;
+}
+
+.texto-destaque strong{
+    text-align: center;
+    color: rgb(59, 59, 59);
+}
 
 
+.texto-destaque h1{
+    text-align: center;
+    color: rgb(114, 114, 114);
+}
+.texto-destaque p{
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
 
 #slick-slide00{
     height: 500px!important;
@@ -13,9 +29,9 @@
 ul.slick-dots li button{
     font-size: 0px;
     background-color: transparent;
-    border: solid 4px #ffffff;
+    border: solid 3px #ffffff;
     height: 20px;
-    width: 20px;
+    width: 15px;
     border-radius: 50%;
     /* serve para mudar o cursosr quando passa por cima do elemento */
     cursor: pointer;  
@@ -30,7 +46,7 @@ ul.slick-dots li button{
     margin: 0 auto;
     position: relative;
     margin-left: 47%;
-    top: -80;
+    top: -50;
     
 }
 
@@ -100,14 +116,11 @@ ul {
     
     /* tem que fazer isso por causa de uma predefinição */
 }/*    padrão do chrome, o "important é para ele sobrescrever" */
-
-.col-100{
+.col-100 {
     width: 100%;
     float: left;
     position: relative;
-    
-    
-
+    top: -46;
 }
 
 .busca input{
@@ -129,6 +142,8 @@ ul {
 .busca{
     width: 30%;
     float: right;
+    position: relative;
+    left: 99;
     
     
 }
@@ -142,7 +157,7 @@ ul {
     color: #8b8b8b;
     /* tira coisas como sublinhado */
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
  /*    deixa todas as letras maiusculas */
     text-transform: uppercase;
     margin-left: 15px;
@@ -176,20 +191,30 @@ body {
     background-color: #252323;
     height: 60px;
     }
-    main{
-    margin: 0 auto;
-    /* width: 100%; */
-    width: 980px;
-    position: relative;
-    }
 
+main, .content{
+margin: 0 auto;
+width: 980px;
+position: relative;
+    }
+    .logo h1{
+        top: -20;
+        position: relative;
+        color: blanchedalmond;
+    }
     .logo{
      
      padding: 16px;
      width: 70%;
      float: left;
-     
+     position: relative;
+     left: -109;
 
+    }
+    .redes-sociais ul li img{       
+       max-width: 25px;
+       max-height: 25px;
+        
     }
 
     .redes-sociais ul li{       /* repare no jeito de acessar o DOM */
@@ -201,7 +226,9 @@ body {
 
     .redes-sociais{
         width: 26%;
-        float: left;
+        float: right;
+        position: relative;
+        left: 150;
     }
 
     
