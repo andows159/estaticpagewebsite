@@ -198,9 +198,10 @@ width: 980px;
 position: relative;
     }
     .logo h1{
+        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         top: -20;
         position: relative;
-        color: blanchedalmond;
+        color: rgb(253, 253, 253);
     }
     .logo{
      
